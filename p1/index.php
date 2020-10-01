@@ -13,6 +13,6 @@ if ($TeamMRdraw >$TeamCJdraw) {
     $winner = 'Chandler and Joey win the apartment';
 }
 
-
+#Test note
 
 require 'index-view.php' ;
