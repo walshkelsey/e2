@@ -9,7 +9,7 @@
 <body>
     <h1>The One Where the High Card Wins</h1>
 
-    <p>Monica and Rachel lost their apartment to Chandler and Joey and are trying to win it back.
+    <p>Monica and Rachel lost their apartment to Chandler and Joey and they are trying to win it back.
         After several failed attempts to win back the apartment, including a game of "Phoebe Ball," the friends
         decide to play a game of "High Card Wins."</p>
     <br>
