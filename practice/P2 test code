@@ -1,0 +1,13 @@
+<!doctype html>
+
+//HTML code for moves
+
+<label for='move'>Chose your move</label>
+<select id='move'>
+    <option>Choose one...</option>
+    <option>Rock</option>
+    <option>Paper</option>
+    <option>Scissors</option>
+</select>
+
+

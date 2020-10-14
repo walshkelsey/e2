@@ -1,0 +1,7 @@
+<?php 
+
+
+$total <= 30 and $total > 50;
+
+
+var_dump($total);
