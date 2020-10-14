@@ -1,4 +1,3 @@
-# e2
-Course work for DGMD E-2
-
-Test Test Test
+# Project 2
++ By: Kelsey Walsh
++ Production URL: <http://p2.kwalsh12.me>
