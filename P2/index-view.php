@@ -17,7 +17,7 @@
     <div>
         <h2>How to Play</h2>
         <ul>
-            <li>Choose a move from the dropdown menu.</li>
+            <li>Choose a move: rock, paper or scissors.</li>
             <li>The computer will also choose a move.</li>
             <li>Paper beats rock, rock beats scissors, and scissors beats paper.</li>
             <li>If you and the computer chose the same move, it is a tie.</li>
