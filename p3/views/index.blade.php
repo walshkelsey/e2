@@ -46,5 +46,8 @@ Rock Paper Scissors
     </ul>
 </div>
 @endif
-    
+</br>
+<h2><a href='/history'>Game History!</a></h2>
+
+
 @endsection
