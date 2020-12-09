@@ -14,4 +14,9 @@ if (isset($_SESSION['game_result'])) {
 
 $_SESSION['game_result'] = null;
 
+
+
+
+
 require 'index-view.php';
+
