@@ -5,7 +5,7 @@ Rock Paper Scissors
 @endsection
 
 @section('content')
-    
+
 <div>
     <h2>How to Play</h2>
     <ul>
@@ -18,26 +18,35 @@ Rock Paper Scissors
 
 
 <form method='POST' action=/play>
-<div>
-    <h3>Choose your move:</h3>
-    <label>
-    <input type='radio' name='move' id='rock' value='rock' checked>
-    Rock</label>
+    <div>
+        <h3>Choose your move:</h3>
+        <label>
+            <input type='radio' name='move' id='rock' value='rock'>
+            Rock</label>
 
-    <label>
-    <input type='radio' name='move' id='paper' value='paper'>
-    Paper</label>
+        <label>
+            <input type='radio' name='move' id='paper' value='paper'>
+            Paper</label>
 
-    <label>
-    <input type='radio' name='move' id='scissors' value='scissors'>
-    Scissors</label>
+        <label>
+            <input type='radio' name='move' id='scissors' value='scissors'>
+            Scissors</label>
 
-    <button type='submit'>Play!</button>
+        <button type='submit'>Play!</button>
 </form>
+
+@if($app->errorsExist())
+<ul class='error alert alert-danger'>
+    @foreach($app->errors() as $error)
+    <li>{{'You must select a move in order to play!'}}</li>
+    @endforeach
+</ul>
+@endif
+
 </div>
 
 @if($outcome)
-<div>    
+<div>
     <h3>Game Results</h3>
     <ul>
         <li>You chose {{$outcome['move']}}</li>
@@ -46,7 +55,7 @@ Rock Paper Scissors
     </ul>
 </div>
 @endif
-</br>
+<br>
 <h2><a href='/history'>Game History!</a></h2>
 
 

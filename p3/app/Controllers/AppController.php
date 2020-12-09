@@ -34,6 +34,11 @@ class AppController extends Controller
 
     public function play()
     {
+        $this->app->validate([
+            'move' => 'required'
+        ]
+        );
+
         $move = $this->app->input('move');
 
         #Save results to database
