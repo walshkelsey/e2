@@ -1,3 +1,27 @@
 #logo {
     width:300px;
 }
+
+body {
+    color: #36454f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 75px;
+    background-color: rgb(238, 206, 183);
+    padding: 15px;
+}
+
+h1 {
+    color: #cb4154;
+}
+
+h2 {color: #cb4154;
+}
+
+h3 { color: #cb4154;
+}
+
+button { 
+    color: darkred;
+    text-decoration-color: snow;
+    font-size: medium;
+}
