@@ -9,7 +9,7 @@ class AppCommand extends Command
         $this->app->db()->createTable('rounds', [
             'move' => 'varchar(10)',
             'compMove' => 'varchar(10)',
-            'result' => 'varchar(4)',
+            'result' => 'varchar(255)',
             'time' => 'timestamp'
         ]);
     }
